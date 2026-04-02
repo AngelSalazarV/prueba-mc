@@ -51,11 +51,11 @@ La app estará en `http://localhost:3000`
 
 Después de ejecutar `pnpm seed`:
 
-- **Admin:** `admin@test.com` / `admin123`
+- **Admin:** `admin@test.com` / `admin1234`
   - Acceso total a todo
   - Panel de Payload completo
 
-- **Usuario:** `usuario@test.com` / `usuario123`
+- **Usuario:** `usuario@test.com` / `usuario1234`
   - Inventario: CRUD completo (sin delete)
   - Ventas: Solo lectura
   - Cobranzas: Sin acceso
