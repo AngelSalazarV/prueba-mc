@@ -55,8 +55,8 @@ echo   Frontend: http://localhost:3000
 echo   Admin:    http://localhost:3000/admin
 echo.
 echo Usuarios de prueba:
-echo   Admin:    admin@test.com / admin123
-echo   Usuario:  usuario@test.com / usuario123
+echo   Admin:    admin@test.com / admin1234
+echo   Usuario:  usuario@test.com / usuario1234
 echo.
 
 call npm run dev
