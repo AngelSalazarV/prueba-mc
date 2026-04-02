@@ -1,4 +1,25 @@
-export const seedData = {
+export const seedData: {
+  inventory: Array<{
+    nombre: string
+    sku: string
+    precio: number
+    stock: number
+    descripcion: string
+  }>
+  cobranzas: Array<{
+    descripcion: string
+    monto: number
+    cliente: string
+    estado: 'pendiente' | 'pagado' | 'vencido'
+  }>
+  ventas: Array<{
+    cliente: string
+    producto: string
+    cantidad: number
+    monto_total: number
+    fecha_venta: string
+  }>
+} = {
   inventory: [
     {
       nombre: 'Laptop Dell XPS 13',
